@@ -20,7 +20,7 @@ Este repositorio contiene scripts para tratar informacion de  hospitales del min
 6. Si vas a crear nuevos scripts, colocalos en la carpeta `scripts/` y asegúrate de que funcionen correctamente.
 7. Si tienes notebooks adicionales, colocalos en la carpeta `notebooks/`.
 8. Asegúrate de documentar cualquier cambio que hagas en este archivo `README.md`.
-9. 
+9. Si están en visual studio code, les recomiendo instalar la extension: "DataWrangler" para poder visualizar los dataframes. Es más util que hacer prints en el propio Jupiter ;)
 
 ## Siguientes pasos
 - Pueden usar la base de "data/parroquias_cantones_inec.csv" para realizar visualizaciones. Diviertanse!
