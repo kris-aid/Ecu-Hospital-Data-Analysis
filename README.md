@@ -22,8 +22,28 @@ Este repositorio contiene scripts para tratar informacion de  hospitales del min
 8. Asegúrate de documentar cualquier cambio que hagas en este archivo `README.md`.
 9. Si están en visual studio code, les recomiendo instalar la extension: "DataWrangler" para poder visualizar los dataframes. Es más util que hacer prints en el propio Jupiter ;)
 
-## Siguientes pasos
-- Pueden usar la base de "data/parroquias_cantones_inec.csv" para realizar visualizaciones. Diviertanse!
-- Pueden hacer un analisis exploratorio de los datos en los notebooks.
-- Prueben revisando la consisitencia de la informacion de las causas "cau298rx","cau221rx" para realizar un diccionario
-- Pueden intentar hacer un analisis de las causas de muerte por provincia, canton, parroquia, sexo, edad, etc.
+# Investigacion
+##  Base sistema de salud
+
+Base completa (solca,msp, etc) Tiene 6 gb de datos
+###  prevalencia
+
+fecha clase, canton, parroquia, # egresos totales,#mortaildad total, antes de las 48 , despues, dias de estancia,# de metabolicos ( que sea la sumatoria de los sindromes metabolicos), diabetes, hipertension, infarto
+
+
+## Base MSP
+
+Es la que es solo del msp. Tiene 3 gb de datos
+
+### prevalencia
+
+En esta base ya tenie limpio el cau221
+Hay que ver el cie100
+### eficiencia 
+Andres tiene esto para hacer paneles
+### combinado
+Esta va a relacionar la prevalencia con la eficiencia. 
+
+Juntar fecha clase, canton, parroquia, # egresos totales,#mortaildad total, mortaildad antes de las 48 ,mortaildad despues, dias de estancia, con numero de personal, gastos
+
+
