@@ -1,0 +1,8 @@
+pandas
+geopandas
+matplotlib
+shapely
+jinja2
+folium
+keplergl
+ipywidgets
